@@ -32,11 +32,11 @@ function ItemForm({ initialValues, onSubmit, submitText }) {
       <label>Item Name</label>
       <input name="name" value={formData.name} onChange={handleChange} required />
 
-      <label>Category</label>
-      <input name="category" value={formData.category} onChange={handleChange} required />
-
       <label>Brand Name</label>
       <input name="brand" value={formData.brand} onChange={handleChange} required />
+
+      <label>Category</label>
+      <input name="category" value={formData.category} onChange={handleChange} required />
 
       <label>Price</label>
       <input
